@@ -1,6 +1,6 @@
 # Monthly Sales Forecasting Using Time Series Analysis
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on forecasting monthly sales quantity using historical retail sales data and Time Series Analysis.
 
@@ -8,7 +8,7 @@ The objective is to analyse historical sales patterns, identify trends and seaso
 
 Three forecasting algorithms are implemented and compared to identify the most suitable model for predicting future sales.
 
-🎯 Objectives
+## 🎯 Objectives
 
 - Analyse historical sales data.
 - Convert transaction-level sales records into monthly sales quantities.
@@ -18,7 +18,7 @@ Three forecasting algorithms are implemented and compared to identify the most s
 - Predict future monthly sales quantities.
 - Visualize actual sales and forecasted results using graphs.
 
-📂 Dataset
+## 📂 Dataset
 
 **Source:** [Sales Dataset – Kaggle](https://www.kaggle.com/datasets/sahilislam007/sales-dataset)
 
@@ -26,21 +26,21 @@ The project uses a publicly available retail sales dataset from Kaggle.
 
 The dataset will be preprocessed and aggregated into monthly sales quantities before applying forecasting algorithms.
 
-🧠 Algorithms Used
+## 🧠 Algorithms Used
 
-1. ARIMA (AutoRegressive Integrated Moving Average)
+### 1. ARIMA (AutoRegressive Integrated Moving Average)
 
 ARIMA is a statistical forecasting technique that uses historical observations and their relationships to predict future values. It is useful for modelling time-series patterns.
 
-2. Holt-Winters Exponential Smoothing (ETS)
+### 2. Holt-Winters Exponential Smoothing (ETS)
 
 Holt-Winters is an exponential smoothing technique that considers the level, trend and seasonal components of time-series data to generate forecasts.
 
-3. Seasonal Naive Forecasting
+### 3. Seasonal Naive Forecasting
 
 Seasonal Naive is a baseline forecasting method that assumes the value for a particular month will be similar to the value recorded in the same month of the previous year.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - **Programming Language:** R
 - **IDE:** RStudio
@@ -50,7 +50,7 @@ Seasonal Naive is a baseline forecasting method that assumes the value for a par
 - **Forecasting:** forecast
 - **Model Evaluation:** MAE, RMSE and MAPE
 
-⚙️ Project Methodology
+## ⚙️ Project Methodology
 
 1. Dataset Collection – Download the retail sales dataset from Kaggle.
 2. Data Preprocessing – Handle missing values, convert date columns and prepare the data.
@@ -61,7 +61,7 @@ Seasonal Naive is a baseline forecasting method that assumes the value for a par
 7. Future Forecasting – Generate predictions for upcoming months.
 8. Result Visualization – Display historical sales, model predictions and forecast comparisons.
 
-📊 Expected Results
+## 📊 Expected Results
 
 The project aims to generate:
 
@@ -72,7 +72,7 @@ The project aims to generate:
 - Future monthly sales quantity predictions.
 - Identification of the best-performing forecasting model.
 
-📁 Project Structure
+## 📁 Project Structure
 
 ```text
 Monthly-Sales-Forecasting/
@@ -94,7 +94,7 @@ Monthly-Sales-Forecasting/
 └── .gitignore
 ```
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 
 1. Clone this repository:
 
@@ -122,7 +122,7 @@ install.packages(c(
 
 6. Run the script to preprocess the dataset, implement the forecasting algorithms and generate predictions.
 
-📈 Model Evaluation
+## 📈 Model Evaluation
 
 The algorithms will be evaluated using:
 
@@ -134,14 +134,14 @@ The algorithms will be evaluated using:
 
 The model with the best performance on the testing data will be selected as the most suitable forecasting model.
 
-🔮 Future Scope
+## 🔮 Future Scope
 
 - Extend forecasting to individual product categories.
 - Develop an interactive sales forecasting dashboard using R Shiny.
 - Explore additional forecasting techniques.
 - Improve prediction accuracy using more historical sales data.
 
-👥 Project Information
+## 👥 Project Information
 
 **Project Title:** Monthly Sales Forecasting Using Time Series Analysis
 
@@ -151,7 +151,7 @@ The model with the best performance on the testing data will be selected as the 
 
 **Domain:** Data Analytics and Time Series Forecasting
 
-📚 References
+## 📚 References
 
 - [Kaggle – Sales Dataset](https://www.kaggle.com/datasets/sahilislam007/sales-dataset)
 - [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
